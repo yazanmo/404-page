@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #553566, #6774b6, #3bf3ac);
+}
+
+.container {
+    margin-left: 18%;
+    padding:60px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background-color: #fff
+}
+
+.container h1 {
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: #5584a3
+}
+
+.home {
+    margin-right: 13px;
+    background-color: #5584a3;
+    color:#fff;
+    border-radius:25px;
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+
+.report{
+    background-color: #fff;
+    color:#69A6CE;
+    padding: 10px 20px;
+    border-radius:25px;
+    border: 1px solid #5584a3;
+    font-size: 10px;
+}
